@@ -9,7 +9,7 @@
  * Set the content width based on the theme's design and stylesheet.
  */
 if ( ! isset( $content_width ) ) {
-	$content_width = 576; /* pixels */
+	$content_width = 876; /* pixels */
 }
 
 if ( ! function_exists( 'figureground_setup' ) ) :
@@ -51,7 +51,7 @@ function figureground_setup() {
 	 * @link http://codex.wordpress.org/Function_Reference/add_theme_support#Post_Thumbnails
 	 */
 	add_theme_support( 'post-thumbnails' );
-	set_post_thumbnail_size( 640, 320, true );
+	set_post_thumbnail_size( 940, 320, true );
 
 	/**
 	 * This theme uses wp_nav_menu() in one location.
